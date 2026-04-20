@@ -8,8 +8,8 @@ from fastapi.responses import JSONResponse
 from main_app.exeptions_alert import NoEnter
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
-SEKRET_KEY = "234wtfTzzfcfsdfsdff/sdawadwaelpwlla3123123"
-ALGORITHM = "HS256"
+SEKRET_KEY = "234wtfTzzfcfsdfsdff/sdawadwaelpwlla3123123"  #keep this in .env file
+ALGORITHM = "HS256"  #
 
 ph = PasswordHasher(
     time_cost=3,
